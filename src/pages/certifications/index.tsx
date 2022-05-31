@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import getImageName from "@getImageName";
+import { getDirrPath, getImageName } from "@utils";
 
 // Server
 import fs from "fs/promises";
@@ -46,7 +46,7 @@ const certifications = ({ images }: imagesProps) => {
 };
 
 export const getStaticProps = async () => {
-    const images = await fs.readdir("./public/certificates");
+    const images = await fs.readdir(getDirrPath("certificates"));
     return {
         props: {
             images,

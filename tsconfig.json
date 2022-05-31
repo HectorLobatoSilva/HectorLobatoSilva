@@ -18,7 +18,7 @@
     "paths": {
       "@components/*": ["components/*"],
       "@tailwindcss": ["styles/global.css"],
-      "@getImageName": ["utils/getImageName.ts"],
+      "@utils": ["utils"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

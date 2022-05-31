@@ -3,7 +3,7 @@ import { GetServerSideProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import getImageName from "@getImageName";
+import { getDirrPath, getImageName } from "@utils";
 
 // Server
 import fs from "fs/promises";
@@ -46,7 +46,7 @@ const Certificate = ({ image, next, prev }: CertificateProps) => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
     const { id } = context.query;
-    const paths = await fs.readdir("./public/certificates");
+    const paths = await fs.readdir(getDirrPath("certificates"));
     const index = paths.findIndex((image: string) => getImageName(image) === id);
     return {
         props: {
