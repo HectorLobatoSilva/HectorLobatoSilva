@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Grupo Parra Rangel",
+        "years": "2018 - 2019",
+        "image": "/companies/gpr.jpeg",
+        "logo": "/companies/gpr.jpeg",
+        "projects": [
+            {
+                "name": "Internal tools"
+            },
+            {
+                "name": "Mithra Mexico",
+                "url": "https://mithramx.com/"
+            }
+        ]
+    },
+    {
+        "name": "ADES Technologies",
+        "years": "2019 - 2019",
+        "image": "/companies/adestech.png",
+        "logo": "/companies/adestech_logo.jpeg",
+        "projects": [
+            {
+                "name": "Gigaaa virtual assistant mobile app",
+                "url": "https://apps.apple.com/us/app/gigaaa-ai-personal-assistant/id1166854619"
+            },
+            {
+                "name": "Gigaaa virtual assistant web app",
+                "url": "https://gigaaa.com/website-mobile-plug-in/"
+            },
+            {
+                "name": "Gigaaa smart mirror"
+            }
+        ]
+    },
+    {
+        "name": "AlphaCredit",
+        "years": "2019 - 2021",
+        "image": "/companies/alphacredit.png",
+        "logo": "/companies/alphacredit_logo.png",
+        "projects": [
+            {
+                "name": "Prospection table"
+            },
+            {
+                "name": "Bontu",
+                "url": "https://www.bontu.mx/"
+            }
+        ]
+    },
+    {
+        "name": "Globant",
+        "years": "2021 - Present",
+        "image": "/companies/globant.png",
+        "logo": "/companies/globant_logo.png",
+        "projects": [
+            {
+                "name": "Telecom (AEM)",
+                "url": "https://www.personal.com.ar/"
+            },
+            {
+                "name": "Telecom (Next.JS)",
+                "url": "https://www.personal.com.ar/"
+            }
+        ]
+    }
+]

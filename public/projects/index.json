@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Comics",
+        "url": "https://hopeful-bohr-582595.netlify.app/",
+        "isMovile": false,
+        "description": "A simple app to make a modern ui for XKCD comics web page",
+        "images": ["/projects/comics/home.png", "/projects/comics/comic_id.png"],
+        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS"]
+    },
+    {
+        "name": "Crypto App",
+        "url": "https://crypto-app-git-main-hectorlobatosilva.vercel.app/",
+        "isMovile": false,
+        "description": "React application to conect metamask wallet, make transactions and store a new giphy image on the block",
+        "images": ["/projects/cryptoapp/home.png", "/projects/cryptoapp/conecting_wallet.png", "/projects/cryptoapp/transactions.png"],
+        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS", "Solidity"]
+    },
+    {
+        "name": "Meals to go",
+        "url": "https://github.com/HectorLobatoSilva/mealstogo",
+        "isMovile": true,
+        "description": "Mobile application to search where go to lunch, made with React Native",
+        "images": [
+            "/projects/mealstogo/login.png",
+            "/projects/mealstogo/search_toronto.png",
+            "/projects/mealstogo/restaurant_info.png",
+            "/projects/mealstogo/location_toronto.png",
+            "/projects/mealstogo/search_toronto_pin.png",
+            "/projects/mealstogo/camera.png"
+        ],
+        "skills": ["React", "JavaScript", "TypeScript", "React Native", "React Hooks", "Firebase"]
+    },
+    {
+        "name": "Movie App",
+        "url": "https://github.com/HectorLobatoSilva/movie_app",
+        "isMovile": true,
+        "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
+        "images": ["/projects/movieapp/home.png", "/projects/movieapp/movie_detail.png", "/projects/movieapp/movie_detail_actors.png", "/projects/movieapp/searching.png"],
+        "skills": ["Flutter", "Firebase"]
+    },
+    {
+        "name": "Musicfy",
+        "url": "https://github.com/HectorLobatoSilva/musicfy",
+        "isMovile": false,
+        "description": "Electron application from courses",
+        "images": ["/projects/musicfy/login.png", "/projects/musicfy/home.png"],
+        "skills": ["React", "JavaScript", "TypeScript", "Electron", "React Hooks", "Sass"]
+    },
+    {
+        "name": "Memetflix",
+        "url": "https://netflixclone-rjeyn3pwt-hectorlobatosilva.vercel.app/",
+        "isMovile": false,
+        "description": "A netflix clone",
+        "images": [
+            "/projects/netflixclone/home.png",
+            "/projects/netflixclone/signup.png",
+            "/projects/netflixclone/signin.png",
+            "/projects/netflixclone/browse.png",
+            "/projects/netflixclone/movies.png"
+        ],
+        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "MUI", "Firebase", "TheMovieDB"]
+    },
+    {
+        "name": "Super Flights",
+        "url": "https://hub.docker.com/search?q=hectorlobatosilva",
+        "isMovile": false,
+        "description": "CRUD Microservices for an airport example",
+        "images": ["/projects/superflights/docker_desktop.png", "/projects/superflights/docker_console.png", "/projects/superflights/env_variables.png", "/projects/superflights/tunder_clients.png"],
+        "skills": ["Node.JS", "TypeScript", "NestJS", "MongoDB", "Microservices", "JWT", "Docker"]
+    },
+    {
+        "name": "Guessing Game",
+        "url": "https://github.com/HectorLobatoSilva/gessing_game",
+        "isMovile": false,
+        "description": "Simple terminal game for a guessing number",
+        "images": [],
+        "skills": ["Rust"]
+    }
+]
