@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Head from "next/head";
 
-import Me from "./../../public/img/me.jpg";
+import Me from "./../../public/img/me.jpeg";
 
 // Server
 import fs from "fs/promises";

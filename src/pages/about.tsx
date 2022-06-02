@@ -6,7 +6,7 @@ import Head from "next/head";
 import { IoLocation, IoCall, IoMailSharp } from "react-icons/io5";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
-import Me from "./../../public/img/me.jpg";
+import Me from "./../../public/img/me.jpeg";
 
 const About = () => {
     return (
