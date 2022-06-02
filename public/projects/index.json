@@ -4,7 +4,7 @@
         "url": "https://hopeful-bohr-582595.netlify.app/",
         "isMovile": false,
         "description": "A simple app to make a modern ui for XKCD comics web page",
-        "images": ["/projects/comics/home.png", "/projects/comics/comic_id.png"],
+        "images": ["/projects/comics/home.jpeg", "/projects/comics/comic_id.jpeg"],
         "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS"]
     },
     {
@@ -12,7 +12,7 @@
         "url": "https://crypto-app-git-main-hectorlobatosilva.vercel.app/",
         "isMovile": false,
         "description": "React application to conect metamask wallet, make transactions and store a new giphy image on the block",
-        "images": ["/projects/cryptoapp/home.png", "/projects/cryptoapp/conecting_wallet.png", "/projects/cryptoapp/transactions.png"],
+        "images": ["/projects/cryptoapp/home.jpeg", "/projects/cryptoapp/conecting_wallet.jpeg", "/projects/cryptoapp/transactions.jpeg"],
         "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS", "Solidity"]
     },
     {
@@ -21,12 +21,12 @@
         "isMovile": true,
         "description": "Mobile application to search where go to lunch, made with React Native",
         "images": [
-            "/projects/mealstogo/login.png",
-            "/projects/mealstogo/search_toronto.png",
-            "/projects/mealstogo/restaurant_info.png",
-            "/projects/mealstogo/location_toronto.png",
-            "/projects/mealstogo/search_toronto_pin.png",
-            "/projects/mealstogo/camera.png"
+            "/projects/mealstogo/login.jpeg",
+            "/projects/mealstogo/search_toronto.jpeg",
+            "/projects/mealstogo/restaurant_info.jpeg",
+            "/projects/mealstogo/location_toronto.jpeg",
+            "/projects/mealstogo/search_toronto_pin.jpeg",
+            "/projects/mealstogo/camera.jpeg"
         ],
         "skills": ["React", "JavaScript", "TypeScript", "React Native", "React Hooks", "Firebase"]
     },
@@ -35,7 +35,7 @@
         "url": "https://github.com/HectorLobatoSilva/movie_app",
         "isMovile": true,
         "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
-        "images": ["/projects/movieapp/home.png", "/projects/movieapp/movie_detail.png", "/projects/movieapp/movie_detail_actors.png", "/projects/movieapp/searching.png"],
+        "images": ["/projects/movieapp/home.jpeg", "/projects/movieapp/movie_detail.jpeg", "/projects/movieapp/movie_detail_actors.jpeg", "/projects/movieapp/searching.jpeg"],
         "skills": ["Flutter", "Firebase"]
     },
     {
@@ -43,7 +43,7 @@
         "url": "https://github.com/HectorLobatoSilva/musicfy",
         "isMovile": false,
         "description": "Electron application from courses",
-        "images": ["/projects/musicfy/login.png", "/projects/musicfy/home.png"],
+        "images": ["/projects/musicfy/login.jpeg", "/projects/musicfy/home.jpeg"],
         "skills": ["React", "JavaScript", "TypeScript", "Electron", "React Hooks", "Sass"]
     },
     {
@@ -52,11 +52,11 @@
         "isMovile": false,
         "description": "A netflix clone",
         "images": [
-            "/projects/netflixclone/home.png",
-            "/projects/netflixclone/signup.png",
-            "/projects/netflixclone/signin.png",
-            "/projects/netflixclone/browse.png",
-            "/projects/netflixclone/movies.png"
+            "/projects/netflixclone/home.jpeg",
+            "/projects/netflixclone/signup.jpeg",
+            "/projects/netflixclone/signin.jpeg",
+            "/projects/netflixclone/browse.jpeg",
+            "/projects/netflixclone/movies.jpeg"
         ],
         "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "MUI", "Firebase", "TheMovieDB"]
     },
@@ -65,7 +65,7 @@
         "url": "https://hub.docker.com/search?q=hectorlobatosilva",
         "isMovile": false,
         "description": "CRUD Microservices for an airport example",
-        "images": ["/projects/superflights/docker_desktop.png", "/projects/superflights/docker_console.png", "/projects/superflights/env_variables.png", "/projects/superflights/tunder_clients.png"],
+        "images": ["/projects/superflights/docker_desktop.jpeg", "/projects/superflights/env_variables.jpeg", "/projects/superflights/tunder_clients.jpeg"],
         "skills": ["Node.JS", "TypeScript", "NestJS", "MongoDB", "Microservices", "JWT", "Docker"]
     },
     {
