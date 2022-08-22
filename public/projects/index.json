@@ -16,6 +16,22 @@
         "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS", "Solidity"]
     },
     {
+        "name": "Gif portal",
+        "url": "https://gifportal-ten.vercel.app",
+        "isMovile": false,
+        "description": "Web 3 DAPP to upload a gif to Solana Blockchain by text link",
+        "images": ["/projects/gifportal/connect.jpeg", "/projects/gifportal/home.jpeg", "/projects/gifportal/approve_transaction.jpeg", "/projects/gifportal/new_gif.jpeg"],
+        "skills": ["React", "JavaScript", "TypeScript", "CSS", "React Hooks", "Rust", "Solana", "Web 3", "DAPP"]
+    },
+    {
+        "name": "Crowdfunding",
+        "url": "https://crowdfunding-theta.vercel.app/",
+        "isMovile": false,
+        "description": "Web 3 DAPP to make donation with Solana Blockchain",
+        "images": ["/projects/crowdfunding/connect.jpeg", "/projects/crowdfunding/new_campaing.jpeg", "/projects/crowdfunding/all_campaigns.jpeg"],
+        "skills": ["React", "JavaScript", "TypeScript", "CSS", "React Hooks", "Rust", "Solana", "Web 3", "DAPP"]
+    },
+    {
         "name": "Meals to go",
         "url": "https://github.com/HectorLobatoSilva/mealstogo",
         "isMovile": true,
