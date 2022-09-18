@@ -13,10 +13,11 @@ const navigation = [
 
 const Nav = () => {
     const router = useRouter();
+
     return (
         <Popover className="container mx-auto">
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8 z-10 h-[3.5rem]">
-                <nav className="relative flex items-center justify-between sm:h-10" aria-label="Global">
+                <nav className="relative flex items-center sm:h-10" aria-label="Global">
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full md:w-auto">
                             <Link href="/" passHref>
@@ -34,7 +35,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                    <div className="hidden md:flex md:ml-10 md:pr-4 md:space-x-8 flex-1 items-center justify-end ">
                         {navigation.map((item) => (
                             <Link href={item.href} key={`navigation-item-${item.name}`} passHref>
                                 {/* eslint-disable */}
@@ -78,7 +79,7 @@ const Nav = () => {
                                 </Popover.Button>
                             </div>
                         </div>
-                        <div className="px-2 pt-2 pb-3 space-y-1">
+                        <div className="px-2 pt-2 space-y-1">
                             {navigation.map((item) => (
                                 <Link href={item.href} key={`navigation-item--menu-${item.name}`} passHref>
                                     {/* eslint-disable */}

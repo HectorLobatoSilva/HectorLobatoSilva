@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background: #0b132b;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+body.home {
+    background-image: url("/img/background.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6fffe9;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #59cfbd;
+}
+
+@layer components {
+    .timeline-icon {
+        @apply h-24 w-24 rounded-full shadow-md bg-gray-800 lg:absolute mx-auto right-0 left-0;
+    }
+
+    .link {
+        @apply underline decoration-sky-500 decoration-2;
+    }
+
+    .cards_container {
+        @apply grid grid-cols-1 md:grid-cols-3 gap-5 p-5;
+    }
+
+    /* Project cards */
+    .project-card {
+        @apply rounded-lg bg-white overflow-hidden transition ease-in-out duration-300 h-60 md:h-80;
+        /* @apply hover:scale-110; */
+    }
+
+    .project-card:hover .project-card__content > * {
+        @apply opacity-100 transition-opacity duration-300 ease-in;
+    }
+
+    .project-card__content {
+        @apply p-5 bg-gradient-to-t from-black/75 to-black/50 translate-y-[80%] h-full transition ease-in duration-300 flex flex-col justify-between;
+        @apply group-hover:translate-y-0 group-hover:delay-[400ms];
+        /* @apply p-2 bg-gradient-to-t from-[#3A506B] to-[#3A506B]/25 to-black; */
+    }
+
+    .project-card__content > *:not(.project-card__title) {
+        @apply opacity-0;
+        @apply group-hover:delay-1000;
+    }
+
+    .project-card__title {
+        @apply relative font-bold text-2xl w-max max-w-full;
+        @apply after:content-[''] after:scale-0 after:h-1 after:w-[calc(100%+1.25rem)] after:bg-[#6FFFE9] after:absolute after:left-[calc(1.25rem*-1)] after:bottom-[-2px] after:transition after:ease-in after:duration-300 after:origin-left;
+        @apply group-hover:after:scale-100;
+    }
+
+    .project-card__link {
+        @apply p-3 cursor-pointer bg-[#3A506B] text-center rounded-lg bottom-0;
+    }
+
+    .project-card__description {
+    }
+}

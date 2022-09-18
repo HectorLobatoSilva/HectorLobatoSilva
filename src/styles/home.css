@@ -1,0 +1,23 @@
+/* Information */
+.home-card {
+    @apply flex flex-col items-center justify-between h-[calc(100vh-5rem)];
+    @apply md:flex-row;
+}
+
+.home-card__image {
+    @apply w-6/12;
+}
+
+.home-card__content {
+    @apply w-10/12 flex flex-col gap-5;
+    @apply md:w-6/12;
+}
+
+.home-card__content--social {
+    @apply flex flex-col justify-between gap-4;
+    @apply md:flex-row;
+}
+
+.home__link {
+    @apply flex gap-1 items-center pt-3;
+}

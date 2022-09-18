@@ -4,32 +4,32 @@
         "url": "https://hopeful-bohr-582595.netlify.app/",
         "isMovile": false,
         "description": "A simple app to make a modern ui for XKCD comics web page",
-        "images": ["/projects/comics/home.jpeg", "/projects/comics/comic_id.jpeg"],
-        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS"]
+        "images": ["/projects/comics/comics.jpeg"],
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3"]
     },
     {
         "name": "Crypto App",
         "url": "https://crypto-app-git-main-hectorlobatosilva.vercel.app/",
         "isMovile": false,
         "description": "React application to conect metamask wallet, make transactions and store a new giphy image on the block",
-        "images": ["/projects/cryptoapp/home.jpeg", "/projects/cryptoapp/conecting_wallet.jpeg", "/projects/cryptoapp/transactions.jpeg"],
-        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "CSS", "Solidity"]
+        "images": ["/projects/cryptoapp/cryptoapp.jpeg", "/projects/cryptoapp/conecting_wallet.jpeg", "/projects/cryptoapp/transactions.jpeg"],
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiSolidity"]
     },
     {
         "name": "Gif portal",
         "url": "https://gifportal-ten.vercel.app",
         "isMovile": false,
         "description": "Web 3 DAPP to upload a gif to Solana Blockchain by text link",
-        "images": ["/projects/gifportal/connect.jpeg", "/projects/gifportal/home.jpeg", "/projects/gifportal/approve_transaction.jpeg", "/projects/gifportal/new_gif.jpeg"],
-        "skills": ["React", "JavaScript", "TypeScript", "CSS", "React Hooks", "Rust", "Solana", "Web 3", "DAPP"]
+        "images": ["/projects/gifportal/gifportal.jpeg", "/projects/gifportal/home.jpeg", "/projects/gifportal/approve_transaction.jpeg", "/projects/gifportal/new_gif.jpeg"],
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiRust", "SiWeb3Dotjs"]
     },
     {
         "name": "Crowdfunding",
         "url": "https://crowdfunding-theta.vercel.app/",
         "isMovile": false,
         "description": "Web 3 DAPP to make donation with Solana Blockchain",
-        "images": ["/projects/crowdfunding/connect.jpeg", "/projects/crowdfunding/new_campaing.jpeg", "/projects/crowdfunding/all_campaigns.jpeg"],
-        "skills": ["React", "JavaScript", "TypeScript", "CSS", "React Hooks", "Rust", "Solana", "Web 3", "DAPP"]
+        "images": ["/projects/crowdfunding/crowfounding.jpeg", "/projects/crowdfunding/new_campaing.jpeg", "/projects/crowdfunding/all_campaigns.jpeg"],
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiRust", "SiWeb3Dotjs"]
     },
     {
         "name": "Meals to go",
@@ -37,14 +37,14 @@
         "isMovile": true,
         "description": "Mobile application to search where go to lunch, made with React Native",
         "images": [
-            "/projects/mealstogo/login.jpeg",
+            "/projects/mealstogo/mealstogo_1.jpeg",
             "/projects/mealstogo/search_toronto.jpeg",
             "/projects/mealstogo/restaurant_info.jpeg",
             "/projects/mealstogo/location_toronto.jpeg",
             "/projects/mealstogo/search_toronto_pin.jpeg",
             "/projects/mealstogo/camera.jpeg"
         ],
-        "skills": ["React", "JavaScript", "TypeScript", "React Native", "React Hooks", "Firebase"]
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiFirebase"]
     },
     {
         "name": "Movie App",
@@ -52,15 +52,15 @@
         "isMovile": true,
         "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
         "images": ["/projects/movieapp/home.jpeg", "/projects/movieapp/movie_detail.jpeg", "/projects/movieapp/movie_detail_actors.jpeg", "/projects/movieapp/searching.jpeg"],
-        "skills": ["Flutter", "Firebase"]
+        "skills": ["SiFlutter", "SiFirebase"]
     },
     {
         "name": "Musicfy",
         "url": "https://github.com/HectorLobatoSilva/musicfy",
         "isMovile": false,
         "description": "Electron application from courses",
-        "images": ["/projects/musicfy/login.jpeg", "/projects/musicfy/home.jpeg"],
-        "skills": ["React", "JavaScript", "TypeScript", "Electron", "React Hooks", "Sass"]
+        "images": ["/projects/musicfy/musicfy.jpeg", "/projects/musicfy/home.jpeg"],
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiElectron", "SiSass"]
     },
     {
         "name": "Memetflix",
@@ -68,21 +68,21 @@
         "isMovile": false,
         "description": "A netflix clone",
         "images": [
-            "/projects/netflixclone/home.jpeg",
+            "/projects/netflixclone/netflixclone.jpeg",
             "/projects/netflixclone/signup.jpeg",
             "/projects/netflixclone/signin.jpeg",
             "/projects/netflixclone/browse.jpeg",
             "/projects/netflixclone/movies.jpeg"
         ],
-        "skills": ["React", "JavaScript", "TypeScript", "NextUI", "React Hooks", "MUI", "Firebase", "TheMovieDB"]
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiMaterialui", "SiFirebase", "SiThemoviedatabase"]
     },
     {
         "name": "Super Flights",
         "url": "https://hub.docker.com/search?q=hectorlobatosilva",
         "isMovile": false,
         "description": "CRUD Microservices for an airport example",
-        "images": ["/projects/superflights/docker_desktop.jpeg", "/projects/superflights/env_variables.jpeg", "/projects/superflights/tunder_clients.jpeg"],
-        "skills": ["Node.JS", "TypeScript", "NestJS", "MongoDB", "Microservices", "JWT", "Docker"]
+        "images": ["/projects/superflights/superflights.jpeg", "/projects/superflights/env_variables.jpeg", "/projects/superflights/tunder_clients.jpeg"],
+        "skills": ["SiNodedotjs", "SiTypescript", "SiNestjs", "SiMongodb", "SiDocker"]
     },
     {
         "name": "Guessing Game",
@@ -90,6 +90,6 @@
         "isMovile": false,
         "description": "Simple terminal game for a guessing number",
         "images": [],
-        "skills": ["Rust"]
+        "skills": ["SiRust"]
     }
 ]
