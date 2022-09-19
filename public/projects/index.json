@@ -1,95 +1,92 @@
 [
     {
-        "name": "Comics",
-        "url": "https://hopeful-bohr-582595.netlify.app/",
-        "isMovile": false,
-        "description": "A simple app to make a modern ui for XKCD comics web page",
-        "images": ["/projects/comics/comics.jpeg"],
-        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3"]
-    },
-    {
         "name": "Crypto App",
         "url": "https://crypto-app-git-main-hectorlobatosilva.vercel.app/",
-        "isMovile": false,
+        "repo": "https://github.com/HectorLobatoSilva/cryptoApp",
         "description": "React application to conect metamask wallet, make transactions and store a new giphy image on the block",
-        "images": ["/projects/cryptoapp/cryptoapp.jpeg", "/projects/cryptoapp/conecting_wallet.jpeg", "/projects/cryptoapp/transactions.jpeg"],
-        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiSolidity"]
+        "image": "/projects/cryptoapp.jpeg",
+        "imageAlign": "rigth",
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiSolidity", "SiEthereum", "SiWeb3Dotjs"]
     },
     {
         "name": "Gif portal",
         "url": "https://gifportal-ten.vercel.app",
-        "isMovile": false,
+        "repo": "https://github.com/HectorLobatoSilva/gifportal",
         "description": "Web 3 DAPP to upload a gif to Solana Blockchain by text link",
-        "images": ["/projects/gifportal/gifportal.jpeg", "/projects/gifportal/home.jpeg", "/projects/gifportal/approve_transaction.jpeg", "/projects/gifportal/new_gif.jpeg"],
+        "image": "/projects/gifportal.jpeg",
+        "imageAlign": "right",
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiRust", "SiWeb3Dotjs"]
     },
     {
         "name": "Crowdfunding",
         "url": "https://crowdfunding-theta.vercel.app/",
-        "isMovile": false,
+        "repo": "https://github.com/HectorLobatoSilva/crowdfunding",
         "description": "Web 3 DAPP to make donation with Solana Blockchain",
-        "images": ["/projects/crowdfunding/crowfounding.jpeg", "/projects/crowdfunding/new_campaing.jpeg", "/projects/crowdfunding/all_campaigns.jpeg"],
+        "image": "/projects/crowfounding.jpeg",
+        "imageAlign": "center",
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiRust", "SiWeb3Dotjs"]
     },
     {
-        "name": "Meals to go",
-        "url": "https://github.com/HectorLobatoSilva/mealstogo",
-        "isMovile": true,
-        "description": "Mobile application to search where go to lunch, made with React Native",
-        "images": [
-            "/projects/mealstogo/mealstogo_1.jpeg",
-            "/projects/mealstogo/search_toronto.jpeg",
-            "/projects/mealstogo/restaurant_info.jpeg",
-            "/projects/mealstogo/location_toronto.jpeg",
-            "/projects/mealstogo/search_toronto_pin.jpeg",
-            "/projects/mealstogo/camera.jpeg"
-        ],
-        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiFirebase"]
+        "name": "Guessing Game",
+        "repo": "https://github.com/HectorLobatoSilva/gessing_game",
+        "description": "Simple terminal game for a guessing number",
+        "image": "",
+        "imageAlign": "center",
+        "skills": ["SiRust"]
     },
     {
-        "name": "Movie App",
-        "url": "https://github.com/HectorLobatoSilva/movie_app",
-        "isMovile": true,
-        "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
-        "images": ["/projects/movieapp/home.jpeg", "/projects/movieapp/movie_detail.jpeg", "/projects/movieapp/movie_detail_actors.jpeg", "/projects/movieapp/searching.jpeg"],
-        "skills": ["SiFlutter", "SiFirebase"]
+        "name": "Comics",
+        "url": "https://hopeful-bohr-582595.netlify.app/",
+        "repo": "https://github.com/HectorLobatoSilva/comics",
+        "description": "A simple app to make a modern ui for XKCD comics web page",
+        "image": "/projects/comics.jpeg",
+        "imageAlign": "center",
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3"]
     },
-    {
-        "name": "Musicfy",
-        "url": "https://github.com/HectorLobatoSilva/musicfy",
-        "isMovile": false,
-        "description": "Electron application from courses",
-        "images": ["/projects/musicfy/musicfy.jpeg", "/projects/musicfy/home.jpeg"],
-        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiElectron", "SiSass"]
-    },
+
     {
         "name": "Memetflix",
         "url": "https://netflixclone-rjeyn3pwt-hectorlobatosilva.vercel.app/",
-        "isMovile": false,
+        "repo": "https://github.com/HectorLobatoSilva/netflixclone",
         "description": "A netflix clone",
-        "images": [
-            "/projects/netflixclone/netflixclone.jpeg",
-            "/projects/netflixclone/signup.jpeg",
-            "/projects/netflixclone/signin.jpeg",
-            "/projects/netflixclone/browse.jpeg",
-            "/projects/netflixclone/movies.jpeg"
-        ],
+        "image": "/projects/netflixclone.jpeg",
+        "imageAlign": "center",
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiMaterialui", "SiFirebase", "SiThemoviedatabase"]
     },
     {
         "name": "Super Flights",
         "url": "https://hub.docker.com/search?q=hectorlobatosilva",
-        "isMovile": false,
+        "repo": "https://github.com/HectorLobatoSilva/superflights",
         "description": "CRUD Microservices for an airport example",
-        "images": ["/projects/superflights/superflights.jpeg", "/projects/superflights/env_variables.jpeg", "/projects/superflights/tunder_clients.jpeg"],
+        "image": "/projects/superflights.jpeg",
+        "imageAlign": "center",
         "skills": ["SiNodedotjs", "SiTypescript", "SiNestjs", "SiMongodb", "SiDocker"]
     },
+
     {
-        "name": "Guessing Game",
-        "url": "https://github.com/HectorLobatoSilva/gessing_game",
-        "isMovile": false,
-        "description": "Simple terminal game for a guessing number",
-        "images": [],
-        "skills": ["SiRust"]
+        "name": "Musicfy",
+        "repo": "https://github.com/HectorLobatoSilva/musicfy",
+        "description": "Electron application from courses",
+        "image": "/projects/musicfy.jpeg",
+        "imageAlign": "center",
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiElectron", "SiSass"]
+    },
+    {
+        "name": "Meals to go",
+        "repo": "https://github.com/HectorLobatoSilva/mealstogo",
+        "isMovile": true,
+        "description": "Mobile application to search where go to lunch, made with React Native",
+        "image": "/projects/mealstogo/mealstogo_1.jpeg",
+        "imageAlign": "center",
+        "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiFirebase"]
+    },
+    {
+        "name": "Movie App",
+        "repo": "https://github.com/HectorLobatoSilva/movie_app",
+        "isMovile": true,
+        "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
+        "image": "/projects/movieapp/movieapp.jpeg",
+        "imageAlign": "center",
+        "skills": ["SiFlutter", "SiFirebase"]
     }
 ]

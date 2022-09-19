@@ -1,6 +1,6 @@
 /* Information */
 .home-card {
-    @apply flex flex-col items-center justify-between h-[calc(100vh-5rem)];
+    @apply flex flex-col items-center justify-between;
     @apply md:flex-row;
 }
 

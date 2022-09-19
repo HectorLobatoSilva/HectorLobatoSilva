@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 <meta name="description" content="Personal web site" />
                 <link rel="icon" type="image/x-icon" href="/icon.svg" />
             </Head>
-            <section className="home-card">
+            <section className="home-card single-page">
                 <div className="home-card__image">
                     <Image src={Me} width={598} height={598} className="photo" alt="me" />
                 </div>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                                         <SiLinkedin />
                                     </a>
                                 </Link>
-                                <Link href="https://www.linkedin.com/in/hector-lobato-100b09174/" passHref>
+                                <Link href="https://github.com/HectorLobatoSilva" passHref>
                                     <a href="/" target="_blank" rel="noreferrer">
                                         <SiGithub />
                                     </a>

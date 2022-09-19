@@ -6,7 +6,7 @@
     --dark-background: #001021;
     --dark-button: #002c5c;
     --light-title: #274c77;
-    --light-subtitle: #6096ba;
+    --light-subtitle: #302dcf;
     --light-background: #e7ecef;
     --light-button: #a3cef1;
 }
@@ -15,6 +15,11 @@
 
 @import "tailwindcss/components";
 @import "./home.css";
+@import "./certifications.css";
+@import "./jobs.css";
+@import "./project.css";
+@import "./modal.css";
+@import "./nav.css";
 
 @layer components {
     body {
@@ -34,12 +39,20 @@
         @apply text-2xl font-bold;
     }
 
+    .single-page {
+        @apply h-[calc(100vh-7rem)];
+    }
+
     .photo {
         @apply rounded-full object-cover;
     }
 
     .title {
         @apply text-l-title dark:text-d-title;
+    }
+
+    .subtitle {
+        @apply text-l-subtitle dark:text-d-subtitle;
     }
 
     .button {
@@ -49,7 +62,8 @@
     }
 
     .link {
-        @apply underline decoration-2 decoration-sky-500;
+        @apply underline decoration-2 decoration-l-title;
+        @apply dark:decoration-d-title;
     }
 }
 

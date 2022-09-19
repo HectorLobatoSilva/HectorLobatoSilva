@@ -1,0 +1,38 @@
+[
+    { "company": "Unir", "url": "/certificates/unir/master.jpeg", "fit": "contain" },
+    { "company": "Unir", "url": "/certificates/unir/master_eu.jpeg", "fit": "fill" },
+    { "company": "Unir", "url": "/certificates/unir/1_semester.jpeg", "fit": "fill" },
+    { "company": "Unir", "url": "/certificates/unir/2_semester.jpeg", "fit": "fill" },
+    { "company": "Unir", "url": "/certificates/unir/3_semester.jpeg", "fit": "fill" },
+
+    { "company": "Globant", "url": "/certificates/globant/aem.jpeg", "fit": "fill" },
+    { "company": "Globant", "url": "/certificates/globant/nodejs.jpeg", "fit": "fill" },
+
+    { "company": "Platzi", "url": "/certificates/platzi/ecamscript_6.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/escuela_de_javascript.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/frontend_developer.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/frontend_practico.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/nextjs_practico.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/nextjs_profesional.jpeg", "fit": "cover" },
+    { "company": "Platzi", "url": "/certificates/platzi/react_practico.jpeg", "fit": "cover" },
+
+    { "company": "Udemy", "url": "/certificates/udemy/deutch.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/electron.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/flask_and_django.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/flutter.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/golang.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/java.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/nestjs.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/node.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/react.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/react2.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/react3.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/react_native.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/react_native_hooks.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/universidad_de_python.jpeg", "fit": "fill" },
+    { "company": "Udemy", "url": "/certificates/udemy/ux.jpeg", "fit": "fill" },
+
+    { "company": "Other", "url": "/certificates/other/hackerrank_javascript.jpeg", "fit": "fill" },
+    { "company": "Other", "url": "/certificates/other/hackerrank_react.jpeg", "fit": "fill" },
+    { "company": "Other", "url": "/certificates/other/ubits_big_data.jpeg", "fit": "fill" }
+]

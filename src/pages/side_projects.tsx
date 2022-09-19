@@ -11,10 +11,12 @@ type Props = {
 
 type Project = {
     name: string;
-    url: string;
-    isMovile: boolean;
+    url?: string;
+    repo: string;
+    isMovile?: boolean;
+    imageAlign: string;
     description: string;
-    images: Array<string>;
+    image: string;
     skills: Array<string>;
 };
 
@@ -26,16 +28,15 @@ const Side = ({ projects }: Props) => {
                 <meta name="description" content="Personal web site" />
                 <link rel="icon" type="image/x-icon" href="/icon.svg" />
             </Head>
-            <div className="container mx-auto">
-                <h1 className="text-[#6FFFE9] text-5xl text-center lg:text-8xl mb-10 font-bold">Side Projects</h1>
+            <section>
+                <h1 className="title text-center">Side Projects</h1>
                 <div className="cards_container">
                     {projects.map((project: Project) => (
                         <div
-                            className="project-card group"
-                            style={{ backgroundImage: `url('${project.images[0]}')`, backgroundSize: "contain", backgroundRepeat: "no-repeat" }}
+                            className={`project-card group bg-${project.imageAlign}`}
+                            style={{ backgroundImage: `url('${project.image}')`, backgroundSize: project.isMovile ? "fill" : "cover", backgroundRepeat: "no-repeat" }}
                             key={`project-${project.name}`}
                         >
-                            {/* <Image src={project.images[0]} alt={project.images[0]} width="25%" height="25%" layout="responsive" objectFit="cover" className="absolute" /> */}
                             <div className="project-card__content">
                                 <h2 className="project-card__title">{project.name}</h2>
                                 <p className="project-card__description">{project.description}</p>
@@ -47,14 +48,21 @@ const Side = ({ projects }: Props) => {
                                         ))}
                                     </div>
                                 </div>
-                                <a className="project-card__link" href={project.url} target="_blank" rel="noopener noreferrer">
-                                    Go to web site
-                                </a>
+                                <div className="flex gap-1">
+                                    {project.url && (
+                                        <a className="navigate-button" href={project.url} target="_blank" rel="noopener noreferrer">
+                                            Go to web site
+                                        </a>
+                                    )}
+                                    <a className="navigate-button" href={project.repo} target="_blank" rel="noopener noreferrer">
+                                        Go to repo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
-            </div>
+            </section>
         </>
     );
 };
@@ -62,6 +70,7 @@ const Side = ({ projects }: Props) => {
 export const getStaticProps = async () => {
     const file = await fs.readFile("./public/projects/index.json", "utf8");
     const projects = JSON.parse(file);
+
     return {
         props: {
             projects,
