@@ -20,6 +20,7 @@
 @import "./project.css";
 @import "./modal.css";
 @import "./nav.css";
+@import "./404.css";
 
 @layer components {
     body {
