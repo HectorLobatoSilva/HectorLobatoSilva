@@ -1,0 +1,38 @@
+.popover {
+    @apply container mx-auto;
+}
+
+.nav-container {
+    @apply relative flex items-center pt-6 px-4 sm:px-6 lg:px-8 z-10 h-[3.5rem];
+}
+
+.nav-logo__container {
+    @apply flex items-center justify-between flex-grow flex-shrink-0 lg:flex-grow-0;
+}
+.nav-logo__text {
+    @apply font-bold flex-1 text-2xl;
+}
+
+.nav-hambuerger {
+    @apply rounded-md p-2 inline-flex items-center justify-center;
+}
+
+.nav-items__container {
+    @apply hidden md:flex md:ml-10 md:pr-4 md:space-x-8 flex-1 items-center justify-end;
+}
+
+.nav-items__item {
+    @apply hover:underline hover:decoration-4 hover:decoration-l-title cursor-pointer;
+    @apply dark:dark:hover:decoration-d-title;
+}
+
+.mobile-popover {
+    @apply absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden;
+    @apply rounded-lg bg-l-button shadow-md ring-1 ring-black ring-opacity-5 overflow-hidden;
+    @apply dark:bg-d-button;
+}
+
+.mobile-item {
+    @apply block px-3 py-2 rounded-md font-medium;
+    @apply active:bg-l-subtitle dark:active:bg-d-subtitle;
+}

@@ -1,0 +1,39 @@
+/* Project cards */
+.cards_container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5;
+}
+
+.project-card {
+    @apply rounded-lg bg-white overflow-hidden transition ease-in-out duration-300 h-60 h-80;
+}
+
+.project-card:hover .project-card__content > * {
+    @apply opacity-100 transition-opacity duration-300 ease-in;
+}
+
+.project-card__content {
+    @apply rounded-lg p-5 bg-gradient-to-t from-l-button to-white/75 translate-y-[75%] h-full w-full transition ease-in duration-300 flex flex-col justify-between;
+    @apply group-hover:translate-y-0 group-hover:delay-[400ms];
+    @apply dark:from-d-button dark:to-black/50;
+    @apply md:translate-y-[80%];
+}
+
+.project-card__content > *:not(.project-card__title) {
+    @apply opacity-0;
+    @apply group-hover:delay-1000;
+}
+
+.project-card__title {
+    @apply relative font-bold text-2xl w-max max-w-full;
+    @apply after:content-[''] after:scale-0 after:h-1 after:w-[calc(100%+1.25rem)] after:bg-l-title after:absolute after:left-[calc(1.25rem*-1)] after:bottom-[-2px] after:transition after:ease-in after:duration-300 after:origin-left;
+    @apply group-hover:after:scale-100;
+    @apply dark:after:bg-d-title;
+}
+
+.navigate-button {
+    @apply border border-l-title dark:border-d-title p-3 rounded-lg text-center;
+}
+
+.project-card__description {
+    @apply text-justify;
+}

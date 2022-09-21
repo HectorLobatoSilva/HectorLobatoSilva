@@ -1,0 +1,12 @@
+.certifications-grid {
+    @apply grid p-4 grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8;
+}
+
+.certifications-companies {
+    @apply flex-wrap items-center justify-center gap-5 p-4;
+}
+
+.certification-image {
+    @apply rounded-lg bg-white ease-in duration-200;
+    @apply hover:scale-105;
+}
