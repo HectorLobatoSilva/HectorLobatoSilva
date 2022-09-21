@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 
 import { SiPointy, SiMaildotru, SiLinkedin, SiGithub } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -15,13 +14,9 @@ const Home: NextPage = () => {
         words,
         loop: 0, // Infinit
     });
+
     return (
         <>
-            <Head>
-                <title>Hector Lobato Silva</title>
-                <meta name="description" content="Personal web site" />
-                <link rel="icon" type="image/x-icon" href="/icon.svg" />
-            </Head>
             <section className="home-card single-page">
                 <div className="home-card__image">
                     <Image src={Me} width={598} height={598} className="photo" alt="me" />

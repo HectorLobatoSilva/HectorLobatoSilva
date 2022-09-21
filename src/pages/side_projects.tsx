@@ -2,7 +2,6 @@ import React from "react";
 
 // Server
 import fs from "fs/promises";
-import Head from "next/head";
 import Icon from "@components/Icon";
 
 type Props = {
@@ -23,25 +22,25 @@ type Project = {
 const Side = ({ projects }: Props) => {
     return (
         <>
-            <Head>
-                <title>Hector Lobato Silva: Side projects</title>
-                <meta name="description" content="Personal web site" />
-                <link rel="icon" type="image/x-icon" href="/icon.svg" />
-            </Head>
             <section>
                 <h1 className="title text-center">Side Projects</h1>
                 <div className="cards_container">
                     {projects.map((project: Project) => (
                         <div
-                            className={`project-card group bg-${project.imageAlign}`}
-                            style={{ backgroundImage: `url('${project.image}')`, backgroundSize: project.isMovile ? "fill" : "cover", backgroundRepeat: "no-repeat" }}
+                            className="project-card group"
+                            style={{
+                                backgroundImage: `url('${project.image}')`,
+                                backgroundSize: project.isMovile ? "contain" : "cover",
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: project.imageAlign,
+                            }}
                             key={`project-${project.name}`}
                         >
                             <div className="project-card__content">
                                 <h2 className="project-card__title">{project.name}</h2>
                                 <p className="project-card__description">{project.description}</p>
                                 <div>
-                                    <h3 className="text-2xl font-bold">Skills</h3>
+                                    <h3 className="text-xl md:text-2xl font-bold">Skills</h3>
                                     <div className="flex gap-3 text-3xl">
                                         {project.skills.map((skill) => (
                                             <Icon name={skill} key={skill} />

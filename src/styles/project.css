@@ -4,7 +4,7 @@
 }
 
 .project-card {
-    @apply rounded-lg bg-white overflow-hidden transition ease-in-out duration-300 h-60 md:h-80;
+    @apply rounded-lg bg-white overflow-hidden transition ease-in-out duration-300 h-60 h-80;
 }
 
 .project-card:hover .project-card__content > * {
@@ -12,12 +12,10 @@
 }
 
 .project-card__content {
-    /* @apply p-5 bg-gradient-to-t from-black/75 to-black/50 translate-y-[80%] h-full transition ease-in duration-300 flex flex-col justify-between; */
-    @apply p-5 bg-gradient-to-t from-l-button to-white/75 translate-y-[75%] h-full w-full transition ease-in duration-300 flex flex-col justify-between;
+    @apply rounded-lg p-5 bg-gradient-to-t from-l-button to-white/75 translate-y-[75%] h-full w-full transition ease-in duration-300 flex flex-col justify-between;
     @apply group-hover:translate-y-0 group-hover:delay-[400ms];
     @apply dark:from-d-button dark:to-black/50;
-    @apply md:translate-y-[80%]
-    /* @apply p-2 bg-gradient-to-t from-[#3A506B] to-[#3A506B]/25 to-black; */;
+    @apply md:translate-y-[80%];
 }
 
 .project-card__content > *:not(.project-card__title) {
@@ -34,4 +32,8 @@
 
 .navigate-button {
     @apply border border-l-title dark:border-d-title p-3 rounded-lg text-center;
+}
+
+.project-card__description {
+    @apply text-justify;
 }

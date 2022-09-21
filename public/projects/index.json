@@ -5,7 +5,7 @@
         "repo": "https://github.com/HectorLobatoSilva/cryptoApp",
         "description": "React application to conect metamask wallet, make transactions and store a new giphy image on the block",
         "image": "/projects/cryptoapp.jpeg",
-        "imageAlign": "rigth",
+        "imageAlign": "right",
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiCss3", "SiSolidity", "SiEthereum", "SiWeb3Dotjs"]
     },
     {
@@ -30,7 +30,7 @@
         "name": "Guessing Game",
         "repo": "https://github.com/HectorLobatoSilva/gessing_game",
         "description": "Simple terminal game for a guessing number",
-        "image": "",
+        "image": "/projects/guessing_game.jpeg",
         "imageAlign": "center",
         "skills": ["SiRust"]
     },
@@ -76,7 +76,7 @@
         "repo": "https://github.com/HectorLobatoSilva/mealstogo",
         "isMovile": true,
         "description": "Mobile application to search where go to lunch, made with React Native",
-        "image": "/projects/mealstogo/mealstogo_1.jpeg",
+        "image": "/projects/mealstogo.jpeg",
         "imageAlign": "center",
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiFirebase"]
     },
@@ -85,7 +85,7 @@
         "repo": "https://github.com/HectorLobatoSilva/movie_app",
         "isMovile": true,
         "description": "Mobile application to find and search current popular movies in theater, made with Flutter",
-        "image": "/projects/movieapp/movieapp.jpeg",
+        "image": "/projects/movieapp.jpeg",
         "imageAlign": "center",
         "skills": ["SiFlutter", "SiFirebase"]
     }

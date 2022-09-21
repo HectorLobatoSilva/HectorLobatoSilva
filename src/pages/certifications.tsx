@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-
-import Head from "next/head";
 import Image from "next/image";
 
 // Server
@@ -34,11 +32,6 @@ const Certifications = ({ certificates: certificatesProps, companies }: Certific
 
     return (
         <>
-            <Head>
-                <title>Hector Lobato Silva: Certifications</title>
-                <meta name="description" content="Personal web site" />
-                <link rel="icon" type="image/x-icon" href="/icon.svg" />
-            </Head>
             <section>
                 <h1 className="title text-center">Certifications</h1>
                 <div className="flex certifications-companies">

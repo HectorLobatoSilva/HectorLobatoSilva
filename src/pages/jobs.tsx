@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Head from "next/head";
 
 import Me from "./../../public/img/me.jpeg";
 
@@ -27,11 +26,6 @@ type ProjectProps = {
 const jobs = ({ jobs }: JobsProps) => {
     return (
         <>
-            <Head>
-                <title>Hector Lobato Silva: Jobs</title>
-                <meta name="description" content="Personal web site" />
-                <link rel="icon" type="image/x-icon" href="/icon.svg" />
-            </Head>
             <section className="single-page">
                 <h1 className="title text-center">Jobs</h1>
 

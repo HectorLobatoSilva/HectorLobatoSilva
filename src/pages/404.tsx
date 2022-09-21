@@ -1,15 +1,9 @@
-import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
 const NotFound = () => {
     return (
         <>
-            <Head>
-                <title>Page not found</title>
-                <meta name="description" content="Personal web site" />
-                <link rel="icon" type="image/x-icon" href="/icon.svg" />
-            </Head>
             <div className="flex flex-col items-center justify-center h-screen w-screen">
                 <h1 className="text-[#6FFFE9] text-6xl mb-10">404</h1>
                 <p className="text-4xl">{"Uh oh! I think you're lost"}</p>
