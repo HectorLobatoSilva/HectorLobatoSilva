@@ -17,6 +17,7 @@ import {
     SiElectron,
     SiSass,
     SiFlutter,
+    SiEthereum,
 } from "react-icons/si";
 
 type Props = {
@@ -59,6 +60,8 @@ const Icon = ({ name }: Props) => {
             return <SiSass />;
         case "SiFlutter":
             return <SiFlutter />;
+        case "SiEthereum":
+            return <SiEthereum />;
         default:
             return <SiReact />;
     }
