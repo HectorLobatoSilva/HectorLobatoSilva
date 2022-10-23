@@ -45,7 +45,9 @@ const Nav = () => {
                         </Link>
                     ))}
                 </div>
-                <button onClick={toggle}>{isDark ? <MdLightMode /> : <MdDarkMode />}</button>
+                <button aria-label="theme button" onClick={toggle}>
+                    {isDark ? <MdLightMode /> : <MdDarkMode />}
+                </button>
             </nav>
 
             <Transition

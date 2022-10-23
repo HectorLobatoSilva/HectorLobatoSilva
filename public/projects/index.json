@@ -54,6 +54,15 @@
         "skills": ["SiReact", "SiJavascript", "SiTypescript", "SiMaterialui", "SiFirebase", "SiThemoviedatabase"]
     },
     {
+        "name": "Recipes app",
+        "url": "https://recipes-3wmd0uds2-hectorlobatosilva.vercel.app",
+        "repo": "https://github.com/HectorLobatoSilva/recipes",
+        "description": "Recipe application made with Angular from Udemy courses",
+        "image": "/projects/recipes.jpeg",
+        "imageAlign": "center",
+        "skills": ["SiAngular", "SiTypescript", "SiFirebase", "SiTailwindcss"]
+    },
+    {
         "name": "Super Flights",
         "url": "https://hub.docker.com/search?q=hectorlobatosilva",
         "repo": "https://github.com/HectorLobatoSilva/superflights",
