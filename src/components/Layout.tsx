@@ -24,6 +24,9 @@ const Layout = ({ children }: Props) => {
                 <title>Hector Lobato Silva {pathname === "/" ? "" : `:${pathname.replace("/", "").replace("_", " ")}`}</title>
                 <meta name="description" content="Personal web site" />
                 <link rel="icon" type="image/x-icon" href={isDark ? "/icon-dark.svg" : "/icon-light.svg"} />
+                <link rel="manifest" href="/manifest.json" />
+                <link rel="apple-touch-icon" href="/icon-light.svg" />
+                <meta name="theme-color" content="#000" />
             </Head>
             <main>{children}</main>
         </>
