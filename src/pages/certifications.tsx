@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 
 // Server
 import fs from "fs/promises";
@@ -61,20 +60,21 @@ const Certifications = ({ certificates: certificatesProps, companies }: Certific
             <div className="certifications-grid">
                 {certificates.map((certificate: Certificate) => (
                     <button onClick={() => setCertificateSelected(certificate)} className="certification-image" key={`certificate-${certificate.url}`}>
-                        <Image src={certificate.url} alt={`Centificate-${certificate.url}`} width="100%" height="100%" className="rounded-lg" layout="responsive" objectFit={certificate.fit} />
+                        <img loading="lazy" src={certificate.url} alt={`Centificate-${certificate.url}`} width="100%" height="100%" className="rounded-lg" />
                     </button>
                 ))}
             </div>
             {certificateSelected && (
                 <Modal onClose={closeModal}>
-                    <Image
+                    <img
+                        loading="lazy"
                         src={certificateSelected!.url}
                         alt={`Centificate-${certificateSelected!.url}`}
                         width="100%"
                         height="100%"
                         className="rounded-lg"
-                        layout="responsive"
-                        objectFit={certificateSelected!.fit}
+                        // layout="responsive"
+                        // objectFit={certificateSelected!.fit}
                     />
                 </Modal>
             )}

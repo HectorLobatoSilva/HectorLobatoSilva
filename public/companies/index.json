@@ -9,8 +9,7 @@
                 "name": "Internal tools"
             },
             {
-                "name": "Mithra Mexico",
-                "url": "https://mithramx.com/"
+                "name": "Mithra Mexico"
             }
         ]
     },
@@ -21,12 +20,10 @@
         "logo": "/companies/adestech_logo.jpeg",
         "projects": [
             {
-                "name": "Gigaaa virtual assistant mobile app",
-                "url": "https://apps.apple.com/us/app/gigaaa-ai-personal-assistant/id1166854619"
+                "name": "Gigaaa virtual assistant mobile app"
             },
             {
-                "name": "Gigaaa virtual assistant web app",
-                "url": "https://gigaaa.com/website-mobile-plug-in/"
+                "name": "Gigaaa virtual assistant web app"
             },
             {
                 "name": "Gigaaa smart mirror"
@@ -43,8 +40,7 @@
                 "name": "Prospection table"
             },
             {
-                "name": "Bontu",
-                "url": "https://www.bontu.mx/"
+                "name": "Bontu"
             }
         ]
     },
@@ -55,16 +51,16 @@
         "logo": "/companies/globant_logo.png",
         "projects": [
             {
-                "name": "Telecom (AEM)",
-                "url": "https://www.personal.com.ar/"
+                "name": "LA Clippers ( Nov. 2023 - Present )",
+                "url": "https://intuitdome.com/"
             },
             {
-                "name": "Telecom (Next.JS)",
-                "url": "https://www.personal.com.ar/"
-            },
-            {
-                "name": "Deloitte",
+                "name": "Deloitte ( Jul. 2022 - Nov. 2023 )",
                 "url": "https://www2.deloitte.com/global/en.html"
+            },
+            {
+                "name": "Telecom (Mar. 2021 - Jul. 2022)",
+                "url": "https://www.personal.com.ar/"
             }
         ]
     }

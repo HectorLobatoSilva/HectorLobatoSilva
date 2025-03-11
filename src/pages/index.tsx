@@ -1,12 +1,9 @@
 import type { NextPage } from "next";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 import { SiPointy, SiMaildotru, SiLinkedin, SiGithub } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
-import Me from "./../../public/img/me.jpeg";
 
 const Home: NextPage = () => {
     const words = ["Software engeenier", "Full-Stack developer", "Web 3.0 developer"];
@@ -18,7 +15,7 @@ const Home: NextPage = () => {
     return (
         <section className="home-card single-page">
             <div className="home-card__image">
-                <Image src={Me} width={598} height={598} className="photo" alt="me" />
+                <img loading="lazy" src="/img/me.jpeg" className="photo" alt="me" />
             </div>
             <div className="home-card__content">
                 <h1>Hector Lobato</h1>
@@ -27,7 +24,7 @@ const Home: NextPage = () => {
                     <Cursor />
                 </h3>
                 <div className="text-justify">
-                    Well-qualified Software Developer with 5+ years of experience in providing expert Web and Mobile Application solutions. Proven expertise in React, Javascript, and Typescript.
+                    Well-qualified Software Developer with 7+ years of experience in providing expert Web and Mobile Application solutions. Proven expertise in React, Javascript, and Typescript.
                     Passionate about finding solutions to problems that the user has knowing how far the functionalities can be compromised in order to get a solution that is balanced between
                     resources, quality, and time.
                 </div>

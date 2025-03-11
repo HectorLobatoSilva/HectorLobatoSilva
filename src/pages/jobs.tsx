@@ -1,8 +1,5 @@
-import Image from "next/image";
 import React from "react";
-
-import Me from "./../../public/img/me.jpeg";
-
+import { HiExternalLink } from "react-icons/hi";
 // Server
 import fs from "fs/promises";
 
@@ -30,7 +27,7 @@ const jobs = ({ jobs }: JobsProps) => {
 
             <div className="flex flex-col items-center lg:flex-row gap-5 h-full">
                 <div className="home-card__image">
-                    <Image src={Me} width={598} height={598} className="photo" alt="me" />
+                    <img loading="lazy" src="/img/me.jpeg" width={598} height={598} className="photo" alt="me" />
                 </div>
                 <div className="relative flex flex-col justify-center items-center gap-6 p-3 w-full lg:w-3/4 lg:items-start">
                     {/* Time lapse */}
@@ -40,7 +37,7 @@ const jobs = ({ jobs }: JobsProps) => {
                             <div className="lg:w-3/12">
                                 <p className="text-right subtitle font-bold">{job.years}</p>
                             </div>
-                            <Image src={job.logo} width={45} height={45} alt="logo" className="rounded-full object-cover" />
+                            <img loading="lazy" src={job.logo} width={45} height={45} alt="logo" className="rounded-full object-cover" />
                             <div className="job-company__card">
                                 <div className="job-company__arrow" aria-hidden="true"></div>
                                 <div className="job-company__content">
@@ -52,6 +49,7 @@ const jobs = ({ jobs }: JobsProps) => {
                                                 {project.url ? (
                                                     <a target="_blank" href={project.url} className="link" rel="noreferrer">
                                                         {project.name}
+                                                        <HiExternalLink />
                                                     </a>
                                                 ) : (
                                                     project.name
